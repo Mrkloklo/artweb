@@ -1,0 +1,251 @@
+{
+  "name": "vue-vant-frame",
+  "version": "0.1.1",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "element-ui": "^2.13.1",
+    "minirefresh": "^2.0.2",
+    "qsjs": "^1.0.0",
+    "vant": "^1.6.23",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.7",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.2",
+    "@vue/cli-plugin-eslint": "^3.9.2",
+    "@vue/cli-service": "^3.9.2",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "axios": "^0.19.2",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-import": "^1.11.0",
+    "copy-webpack-plugin": "^5.0.2",
+    "eslint": "^6.1.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10",
+    "vue-waterfall-easy": "^2.4.4"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "globals": {
+      "ejs": true,
+      "MiniRefresh": true
+    },
+    "rules": {
+      "semi": [
+        2,
+        "always"
+      ],
+      "eqeqeq": [
+        2,
+        "allow-null"
+      ],
+      "no-trailing-spaces": [
+        2,
+        {
+          "skipBlankLines": true
+        }
+      ],
+      "indent": [
+        2,
+        2,
+        {
+          "SwitchCase": 1
+        }
+      ],
+      "no-tabs": 2,
+      "no-console": [
+        1,
+        {
+          "allow": [
+            "warn",
+            "error"
+          ]
+        }
+      ],
+      "no-empty": [
+        2,
+        {
+          "allowEmptyCatch": true
+        }
+      ],
+      "valid-jsdoc": [
+        2,
+        {
+          "requireReturn": false
+        }
+      ],
+      "camelcase": 2,
+      "no-unused-vars": [
+        2,
+        {
+          "vars": "all",
+          "args": "none",
+          "varsIgnorePattern": "ENV_*"
+        }
+      ],
+      "no-label-var": 2,
+      "no-use-before-define": [
+        2,
+        {
+          "functions": false,
+          "classes": true
+        }
+      ],
+      "no-undef-init": 2,
+      "padding-line-between-statements": [
+        2,
+        {
+          "blankLine": "always",
+          "prev": [
+            "const",
+            "let",
+            "var"
+          ],
+          "next": "*"
+        },
+        {
+          "blankLine": "always",
+          "prev": "*",
+          "next": [
+            "return"
+          ]
+        },
+        {
+          "blankLine": "any",
+          "prev": [
+            "const",
+            "let",
+            "var"
+          ],
+          "next": [
+            "const",
+            "let",
+            "var"
+          ]
+        }
+      ],
+      "no-alert": 2,
+      "no-caller": 2,
+      "no-eq-null": 2,
+      "no-eval": [
+        2,
+        {
+          "allowIndirect": true
+        }
+      ],
+      "no-extend-native": 2,
+      "no-native-reassign": 2,
+      "no-with": 2,
+      "no-octal-escape": 2,
+      "no-proto": 2,
+      "no-self-compare": 2,
+      "no-sequences": 2,
+      "no-implied-eval": 2,
+      "no-iterator": 2,
+      "no-new-func": 2,
+      "radix": 2,
+      "wrap-iife": [
+        2,
+        "any"
+      ],
+      "curly": [
+        2,
+        "all"
+      ],
+      "quotes": [
+        2,
+        "single",
+        {
+          "avoidEscape": true
+        }
+      ],
+      "space-infix-ops": 2,
+      "new-cap": [
+        2,
+        {
+          "newIsCap": true,
+          "capIsNew": false
+        }
+      ],
+      "no-script-url": 2,
+      "no-void": 2,
+      "space-before-blocks": [
+        2,
+        "always"
+      ],
+      "space-in-parens": [
+        2,
+        "never"
+      ],
+      "no-spaced-func": 2,
+      "keyword-spacing": 2,
+      "max-params": [
+        2,
+        7
+      ],
+      "new-parens": 2,
+      "comma-spacing": [
+        2,
+        {
+          "before": false,
+          "after": true
+        }
+      ],
+      "comma-style": [
+        2,
+        "last"
+      ],
+      "block-spacing": [
+        2,
+        "never"
+      ],
+      "array-bracket-spacing": [
+        2,
+        "never"
+      ],
+      "computed-property-spacing": [
+        2,
+        "never"
+      ],
+      "key-spacing": [
+        2,
+        {
+          "beforeColon": false,
+          "afterColon": true
+        }
+      ],
+      "no-multi-spaces": 2,
+      "no-multi-str": 2,
+      "default-case": 2,
+      "space-before-function-paren": 0
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
